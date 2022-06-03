@@ -197,8 +197,9 @@ namespace aviator
             kasa = kasa - bahismiktari*oran2;
             status = 1;
             label12.Text = "" + oran2;
+            timer1.Interval = 10; //0.5 saniye
+            timer2.Interval = 30; //0.5 saniye
 
-            
 
         }
 
@@ -221,6 +222,8 @@ namespace aviator
             bakiye = 1000;
             label6.Text = "" + bakiye;
             label5.Text = "" + kasa;
+            timer1.Interval = 20; //0.5 saniye
+            timer2.Interval = 60; //0.5 saniye
         }
     }
 }
