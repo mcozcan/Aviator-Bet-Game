@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aviator", "aviator\aviator.csproj", "{27D2F304-E7B7-40D6-9AD5-FC08E8DB4367}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BMX MEHMETATOR", "Setup1\Setup1.vdproj", "{87C79AD9-5DE1-4936-96D9-6E2662EC7850}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BMX MEHMETATORR", "BMX MEHMETATORR\BMX MEHMETATORR.vdproj", "{11895386-C7B3-4C8A-9DC5-9EB50903EFCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D2F304-E7B7-40D6-9AD5-FC08E8DB4367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D2F304-E7B7-40D6-9AD5-FC08E8DB4367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D2F304-E7B7-40D6-9AD5-FC08E8DB4367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D2F304-E7B7-40D6-9AD5-FC08E8DB4367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C79AD9-5DE1-4936-96D9-6E2662EC7850}.Debug|Any CPU.ActiveCfg = Debug
+		{87C79AD9-5DE1-4936-96D9-6E2662EC7850}.Release|Any CPU.ActiveCfg = Release
+		{11895386-C7B3-4C8A-9DC5-9EB50903EFCE}.Debug|Any CPU.ActiveCfg = Debug
+		{11895386-C7B3-4C8A-9DC5-9EB50903EFCE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D53ABA6-6CB2-4CCC-BF18-06F6AB577D9D}
+	EndGlobalSection
+EndGlobal
