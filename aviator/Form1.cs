@@ -80,11 +80,11 @@ namespace aviator
                 FileName = "https://linktr.ee/mcozcan",
                 UseShellExecute = true,
             };
-            
+            button3.Visible = false;
             Process.Start(psi);
             
-            timer1.Interval = 20; //0.5 saniye
-            timer2.Interval = 60; //0.5 saniye
+            timer1.Interval = 15; 
+            timer2.Interval = 60; 
             backgroundWorker1.RunWorkerAsync();
        
             label6.Text = "" + bakiye;
@@ -93,9 +93,12 @@ namespace aviator
 
         private void button2_Click(object sender, EventArgs e)
         {
+            timer1.Interval = 15; //0.5 saniye
+            timer2.Interval = 60; //0.5 saniye
+            button3.Visible = true;
             if (kasa < 0)
             {
-                MessageBox.Show("Kasayı bitirdin oC yeter! ! ! ! ");
+                MessageBox.Show("Kasayı bitirdin o*C yeter! ! ! ! ");
             }
 
             status = 0;
@@ -103,7 +106,7 @@ namespace aviator
             bahismiktari = Convert.ToInt32(textBox2.Text);
             if  (bakiye < 1)
             {
-                MessageBox.Show("Paran bitmiş siktir git");
+                MessageBox.Show("Paran bitmiş s*ktir git");
                
             } 
 
@@ -197,7 +200,7 @@ namespace aviator
             kasa = kasa - bahismiktari*oran2;
             status = 1;
             label12.Text = "" + oran2;
-            timer1.Interval = 10; //0.5 saniye
+            timer1.Interval = 5; //0.5 saniye
             timer2.Interval = 30; //0.5 saniye
 
 
@@ -222,8 +225,24 @@ namespace aviator
             bakiye = 1000;
             label6.Text = "" + bakiye;
             label5.Text = "" + kasa;
-            timer1.Interval = 20; //0.5 saniye
-            timer2.Interval = 60; //0.5 saniye
+            timer1.Interval = 15; //0.5 saniye
+            timer2.Interval = 45; //0.5 saniye
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = "https://linktr.ee/mcozcan",
+                UseShellExecute = true,
+            };
+            button3.Visible = false;
+            Process.Start(psi);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
